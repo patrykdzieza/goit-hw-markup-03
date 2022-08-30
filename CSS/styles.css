@@ -22,7 +22,8 @@ body {
   background-color: var(--background);
   margin: 0;
 }
-ul {
+ul,
+li {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -31,6 +32,7 @@ img,
 button {
   display: block;
   margin: 0;
+  border: 0;
 }
 
 .header__border {
@@ -47,10 +49,15 @@ button {
   padding-bottom: 12.5px;
   margin: 0 auto;
 }
-.container {
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   width: 1200px;
   margin: 0 auto;
-  padding: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  border: 2px dotted red;
 }
 .navigation__item {
   display: inline-block;
@@ -164,9 +171,9 @@ button {
 
 .button__secondary {
   background-color: var(--lightgray);
-  border: 0px;
   cursor: pointer;
   padding: 6px 22px 6px 22px;
+  border-radius: 4px;
 }
 
 .button__secondary--light-text {
@@ -174,12 +181,16 @@ button {
   font-weight: 500;
   line-height: 1.625;
   color: var(--black);
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 .button__secondary--light-text:hover,
 .button__secondary--light-text:focus {
   color: var(--white);
   background-color: var(--blue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* -- BUTTONS STYLE END -- */
@@ -259,8 +270,6 @@ button {
 .section-3-col__container {
   display: flex;
   background-color: antiquewhite;
-  padding: 94px 0px 94px 0px;
-  flex-wrap: wrap;
 }
 
 .section-3-col__title {
@@ -314,18 +323,16 @@ button {
 
 .section-1-col__container {
   display: flex;
-  background-color: #757575;
   justify-content: center;
-  gap: 30px;
-  margin-top: 94px;
-  margin-bottom: 50px;
+  gap: 30px; 
+  =
 }
 
 .section-1-col__content {
   display: flex;
   flex-direction: row;
+  gap: 8px;
 }
 
 .section-1-col__item {
-  display: flex;
 }
