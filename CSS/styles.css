@@ -57,7 +57,6 @@ button {
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 94px;
-  border: 2px dotted red;
 }
 .navigation__item {
   display: inline-block;
@@ -198,8 +197,8 @@ button {
 
 /* -- INDEX.HTML STYLES -- */
 
-.hero__container {
-}
+/*.hero__container {
+}*/
 
 .hero__container--background {
   background-color: var(--dark-background);
@@ -269,7 +268,6 @@ button {
 }
 .section-3-col__container {
   display: flex;
-  
 }
 
 .section-3-col__title {
@@ -285,7 +283,7 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
- 
+
   justify-content: space-between;
   padding: 0;
   gap: 30px;
@@ -299,7 +297,6 @@ button {
 .section-3-col__content-box {
   margin: 0;
   padding: 0;
-  border: 1px solid #2196f3;
 }
 
 .section-3-col__content-box__title {
@@ -317,8 +314,8 @@ button {
   margin: 0;
 }
 
-.section-3-col__content-box__desc{
-  padding:20px 24px 20px 24px;
+.section-3-col__content-box__figcaption {
+  padding: 20px 24px 20px 24px;
 }
 /* -- END INDEX.HTML STYLES -- */
 /* -- START PORTFOLIO.HTML STYLES -- */
@@ -326,8 +323,7 @@ button {
 .section-1-col__container {
   display: flex;
   justify-content: center;
-  gap: 30px; 
-  =
+  gap: 30px;
 }
 
 .section-1-col__content {
@@ -336,5 +332,5 @@ button {
   gap: 8px;
 }
 
-.section-1-col__item {
-}
+/*.section-1-col__item {
+}*/
