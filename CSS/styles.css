@@ -269,7 +269,7 @@ button {
 }
 .section-3-col__container {
   display: flex;
-  background-color: antiquewhite;
+  
 }
 
 .section-3-col__title {
@@ -285,7 +285,7 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: aliceblue;
+ 
   justify-content: space-between;
   padding: 0;
   gap: 30px;
@@ -314,10 +314,12 @@ button {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--gray);
-  letter-spacing: 0.06em;
   margin: 0;
 }
 
+.section-3-col__content-box__desc{
+  padding:20px 24px 20px 24px;
+}
 /* -- END INDEX.HTML STYLES -- */
 /* -- START PORTFOLIO.HTML STYLES -- */
 
