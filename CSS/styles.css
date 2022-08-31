@@ -35,19 +35,23 @@ button {
   border: 0;
 }
 
-.header__border {
+.header__container {
   border-bottom: 1px solid var(--lightgray);
 }
-.header__container {
+
+.header__content {
   display: flex;
-  width: 1200px;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-top: 25px;
+  padding-bottom: 25px;
   align-items: center;
-  gap: 46px;
-  padding-top: 12.5px;
-  padding-bottom: 12.5px;
+  gap: 40px;
   margin: 0 auto;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
 }
 .section {
   display: flex;
@@ -65,7 +69,6 @@ button {
   margin-left: auto;
   display: flex;
   gap: 50px;
-  padding: 20px;
 }
 /* START -- Shared Styles -- */
 
@@ -129,7 +132,8 @@ button {
 
 .footer {
   background-color: var(--dark-background);
-  padding: 20px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .footer_content {
   text-decoration: none;
@@ -316,6 +320,10 @@ button {
 
 .section-3-col__content-box__figcaption {
   padding: 20px 24px 20px 24px;
+}
+
+.section-3-col__content-box__figcaption--border {
+  border: 1px solid var(--lightgray);
 }
 /* -- END INDEX.HTML STYLES -- */
 /* -- START PORTFOLIO.HTML STYLES -- */
