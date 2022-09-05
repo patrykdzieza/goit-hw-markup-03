@@ -266,12 +266,19 @@ p {
   border-radius: 0px 0px 4px 4px;
 }
 
+.section-4-col__item--no-shadow {
+  list-style: none;
+  background-color: var(--white);
+  padding-bottom: 30px;
+}
+
 .section-4-col__title {
   font-weight: var(--bold);
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-bottom: 10px;
 }
 .section-4-col__title--big {
   color: var(--black);
