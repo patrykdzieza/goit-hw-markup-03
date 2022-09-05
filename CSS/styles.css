@@ -367,7 +367,9 @@ p {
 }
 
 .section-3-col__content-box__figcaption--border {
-  border: 1px solid var(--lightgray);
+  border-bottom: 1px solid var(--lightgray);
+  border-left: 1px solid var(--lightgray);
+  border-right: 1px solid var(--lightgray);
 }
 /* -- END INDEX.HTML STYLES -- */
 /* -- START PORTFOLIO.HTML STYLES -- */
